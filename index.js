@@ -6,7 +6,7 @@ const { createServer } = require("node:http");
 const port = 4000;
 
 const userRouter = require("./routs/user/userRouts.js");
-const calandarRouter = require("./routs/calandar/calandarRouts.js")
+const concertsRouter = require("./routs/concerts/concertsRouts.js")
 
 
 dotenv.config();
@@ -49,4 +49,4 @@ mongoose
 
 app.use(bodyParser.json());
 app.use('/user', userRouter )
-app.use("/calander", calandarRouter)
+app.use("/api/v1/concerts", concertsRouter)

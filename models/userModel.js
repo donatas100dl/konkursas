@@ -23,8 +23,6 @@ const usersSchema = new mongoose.Schema({
     // avatarUrl: {
     //   type: String,
     //   default: "../assets/profile_placeholder_2.jpg",
-    // }
-    calendar: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Calendar' }],
 
   });
 
