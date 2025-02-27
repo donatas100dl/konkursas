@@ -1,3 +1,3 @@
 NPM i
 
-nmp run start
+npm run start
